@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  namespace :public do
+    get 'books/search'
+  end
+  get 'posts/index'
+  get 'posts/show'
+  get 'posts/edit'
+  get 'posts/new'
+  get 'posts/favorites'
+  get 'homes/top'
+  get 'homes/attention'
 # 顧客用
 # URL /customers/sign_in ...
 devise_for :users, controllers: {
