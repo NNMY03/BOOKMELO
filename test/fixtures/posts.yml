@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  reading_finish: 2023-08-06
+  comment: MyText
+  memo: MyText
+  star: MyString
+  category: MyString
+  posted_status: false
+
+two:
+  reading_finish: 2023-08-06
+  comment: MyText
+  memo: MyText
+  star: MyString
+  category: MyString
+  posted_status: false
